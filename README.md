@@ -14,6 +14,7 @@ This repository is an educational simulator, not a public honeypot and not an in
 - Dashboard totals, risk score (0–100), risk level, distribution chart, severity bars, and history table
 - CSV and JSON downloads for Python, R, or Excel analysis
 - Browser `localStorage` persistence, demo-data loading, and reset controls
+- Included synthetic policy, customer, organization, and attack-type CSV datasets used by the portal and dashboard
 
 All policy numbers, people, counts, identifiers, addresses, and IP addresses are synthetic. Documentation-reserved IP space (`192.0.2.0/24`) is used for the default simulator IPs.
 
@@ -35,6 +36,8 @@ Risk labels: Low (0–24), Elevated (25–49), High (50–74), Critical (75–10
 ## Architecture
 
 `index.html` provides the interface, `styles.css` provides responsive presentation, and `app.js` produces and visualizes synthetic events. The browser stores events under `ictih-security-events-v1`; exports are assembled entirely client-side. There is no backend, API, database, telemetry, or inbound request handling.
+
+The included `data/` folder is loaded by the site and must be published alongside the other files. `Policies.csv` joins to `Customers.csv` through `CustomerID` and to `Organizations.csv` through `OrganizationID`. The records are displayed as supplied synthetic course data.
 
 ## Publish on GitHub Pages
 

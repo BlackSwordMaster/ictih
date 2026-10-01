@@ -1,0 +1,11 @@
+AttackTypeID,EventType,DefaultSeverity
+1,Port Scan,Medium
+2,SSH Login Attempt,High
+3,Brute Force,High
+4,SQL Injection,Critical
+5,Credential Stuffing,High
+6,Malware Upload,Critical
+7,Directory Traversal,High
+8,Web Exploit,High
+9,Suspicious Login,Medium
+10,Data Exfiltration Attempt,Critical

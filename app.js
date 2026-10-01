@@ -14,6 +14,25 @@ const eventTypes = {
 let events = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
 const $ = id => document.getElementById(id);
 const escapeHtml = value => String(value || '—').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+const parseCsv = text => { const lines = text.trim().split(/\r?\n/); const headers = lines.shift().split(','); return lines.map(line => Object.fromEntries(line.split(',').map((cell, i) => [headers[i], cell.trim()]))); };
+let insuranceData = { policies: [], customers: [], organizations: [], attackTypes: [] };
+async function loadInsuranceData() {
+  try {
+    const files = await Promise.all(['Policies.csv','Customers.csv','Organizations.csv','AttackTypes.csv'].map(file => fetch(`data/${file}`).then(r => { if (!r.ok) throw new Error(file); return r.text(); })));
+    insuranceData = { policies: parseCsv(files[0]), customers: parseCsv(files[1]), organizations: parseCsv(files[2]), attackTypes: parseCsv(files[3]) };
+    $('policyTotal').textContent = insuranceData.policies.length;
+    $('policyActive').textContent = `${insuranceData.policies.filter(p => p.PolicyStatus === 'Active').length} active policies`;
+    $('organizationTotal').textContent = insuranceData.organizations.length;
+    $('attackTypeTotal').textContent = insuranceData.attackTypes.length;
+    const picker = $('customerPicker'); picker.innerHTML = insuranceData.customers.slice(0, 100).map(c => `<option value="${c.CustomerID}">${c.CustomerCode} · ${c.State}</option>`).join('');
+    picker.addEventListener('change', renderCustomerPolicies); renderCustomerPolicies();
+  } catch (error) { $('policyCards').innerHTML = '<article><span>DATA STATUS</span><strong>CSV data unavailable</strong><small>Publish the data folder with the site, then refresh.</small></article>'; $('policyActive').textContent = 'Data files unavailable'; }
+}
+function renderCustomerPolicies() {
+  const customerId = $('customerPicker').value, customer = insuranceData.customers.find(c => c.CustomerID === customerId), policies = insuranceData.policies.filter(p => p.CustomerID === customerId);
+  $('customerState').textContent = customer ? `State: ${customer.State}` : '';
+  $('policyCards').innerHTML = policies.length ? policies.map(p => { const org = insuranceData.organizations.find(o => o.OrganizationID === p.OrganizationID); return `<article><span>${escapeHtml(p.PolicyType)}</span><strong>Policy #${escapeHtml(p.PolicyID)}</strong><small>${escapeHtml(org?.OrganizationName || 'Organization unavailable')}</small><b class="status">${escapeHtml(p.PolicyStatus)}</b></article>`; }).join('') : '<article><span>POLICIES</span><strong>No linked policy</strong><small>This synthetic customer has no policy record.</small></article>';
+}
 function save() { localStorage.setItem(STORAGE_KEY, JSON.stringify(events)); }
 function showToast(text) { const t = $('toast'); t.textContent = text; t.classList.add('show'); setTimeout(() => t.classList.remove('show'), 2400); }
 function formatTime(value) { return new Date(value).toLocaleString([], { dateStyle: 'medium', timeStyle: 'short' }); }
@@ -47,4 +66,4 @@ function download(kind) { const csvHeaders=['timestamp','sourceIp','target','use
 }
 function loadDemo() { if(events.length && !confirm('Add demonstration data to the current local event log?')) return; const names=['Port scan','Failed login','Weak credential attempt','SQL injection attempt','Directory/file enumeration','Privilege escalation attempt','Sensitive-data access','Data-exfiltration simulation']; names.forEach((name,i)=>{const d=eventTypes[name];events.push({id:`demo-${Date.now()}-${i}`,timestamp:new Date(Date.now()-i*3600000).toISOString(),sourceIp:`192.0.2.${105+i}`,target:d.target,username:i%2?'unknown':'demo-user',eventType:name,category:d.category,severity:d.severity,detected:true,riskWeight:d.weight,simulation:true});});events.sort((a,b)=>new Date(b.timestamp)-new Date(a.timestamp));save();render();showToast('Demonstration data loaded locally.'); }
 Object.keys(eventTypes).forEach(name=>{const button=document.createElement('button');button.textContent=name;button.addEventListener('click',()=>simulate(name));$('simButtons').append(button);});
-$('loadDemo').addEventListener('click',loadDemo); $('resetData').addEventListener('click',()=>{if(confirm('Remove all locally stored ICTIH event data from this browser?')){events=[];save();render();showToast('Local event data reset.');}}); $('exportCsv').addEventListener('click',()=>download('csv')); $('exportJson').addEventListener('click',()=>download('json')); $('demoLogin').addEventListener('click',()=>showToast('Demo sign-in complete. No data was sent or stored.')); render();
+$('loadDemo').addEventListener('click',loadDemo); $('resetData').addEventListener('click',()=>{if(confirm('Remove all locally stored ICTIH event data from this browser?')){events=[];save();render();showToast('Local event data reset.');}}); $('exportCsv').addEventListener('click',()=>download('csv')); $('exportJson').addEventListener('click',()=>download('json')); $('demoLogin').addEventListener('click',()=>showToast('Demo sign-in complete. No data was sent or stored.')); render(); loadInsuranceData();

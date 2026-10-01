@@ -1,0 +1,501 @@
+PolicyID,CustomerID,OrganizationID,PolicyType,PolicyStatus
+1,173,8,Term Life,Active
+2,390,2,Term Life,Active
+3,451,1,Universal Life,Lapsed
+4,195,10,Term Life,Active
+5,143,4,Whole Life,Active
+6,386,3,Life,Active
+7,488,5,Universal Life,Active
+8,426,9,Life,Active
+9,216,1,Universal Life,Lapsed
+10,130,9,Life,Lapsed
+11,428,7,Universal Life,Active
+12,42,2,Life,Active
+13,241,4,Whole Life,Active
+14,10,2,Universal Life,Active
+15,384,8,Universal Life,Lapsed
+16,277,2,Universal Life,Active
+17,27,3,Whole Life,Active
+18,488,8,Life,Active
+19,180,5,Universal Life,Active
+20,115,9,Life,Active
+21,333,5,Whole Life,Lapsed
+22,36,7,Term Life,Active
+23,400,8,Universal Life,Active
+24,491,8,Whole Life,Active
+25,334,4,Life,Active
+26,21,8,Universal Life,Active
+27,387,9,Life,Lapsed
+28,16,3,Term Life,Lapsed
+29,487,7,Universal Life,Active
+30,127,4,Universal Life,Active
+31,103,10,Life,Active
+32,430,9,Universal Life,Active
+33,11,3,Whole Life,Active
+34,319,2,Whole Life,Lapsed
+35,79,5,Term Life,Active
+36,123,7,Whole Life,Active
+37,65,6,Term Life,Lapsed
+38,243,9,Life,Active
+39,343,5,Life,Lapsed
+40,59,1,Term Life,Active
+41,289,5,Whole Life,Active
+42,486,5,Whole Life,Active
+43,112,10,Term Life,Active
+44,239,10,Term Life,Lapsed
+45,359,8,Life,Active
+46,132,3,Term Life,Active
+47,393,8,Whole Life,Lapsed
+48,189,9,Term Life,Active
+49,86,8,Term Life,Active
+50,311,6,Term Life,Active
+51,311,6,Life,Lapsed
+52,494,9,Term Life,Active
+53,383,9,Universal Life,Lapsed
+54,368,7,Universal Life,Active
+55,59,8,Universal Life,Active
+56,399,6,Whole Life,Active
+57,420,4,Whole Life,Active
+58,84,4,Term Life,Active
+59,494,10,Universal Life,Active
+60,160,7,Life,Lapsed
+61,56,4,Universal Life,Active
+62,297,7,Universal Life,Lapsed
+63,14,1,Whole Life,Active
+64,476,6,Whole Life,Lapsed
+65,160,8,Life,Active
+66,295,7,Whole Life,Lapsed
+67,347,7,Life,Lapsed
+68,465,3,Whole Life,Active
+69,491,8,Universal Life,Active
+70,193,1,Universal Life,Active
+71,204,3,Life,Active
+72,483,9,Life,Lapsed
+73,367,10,Whole Life,Lapsed
+74,102,6,Whole Life,Active
+75,39,2,Life,Active
+76,304,8,Life,Lapsed
+77,354,2,Universal Life,Active
+78,426,9,Universal Life,Active
+79,322,8,Life,Active
+80,125,1,Universal Life,Lapsed
+81,53,3,Term Life,Active
+82,357,7,Whole Life,Active
+83,396,3,Universal Life,Active
+84,155,2,Term Life,Active
+85,436,8,Life,Active
+86,351,5,Universal Life,Active
+87,308,6,Life,Active
+88,413,10,Whole Life,Active
+89,62,7,Life,Lapsed
+90,408,2,Term Life,Active
+91,290,6,Life,Lapsed
+92,401,9,Term Life,Active
+93,22,7,Universal Life,Active
+94,178,6,Universal Life,Active
+95,273,8,Term Life,Active
+96,220,9,Whole Life,Lapsed
+97,339,1,Whole Life,Lapsed
+98,190,10,Whole Life,Active
+99,36,2,Universal Life,Active
+100,260,4,Universal Life,Active
+101,332,5,Whole Life,Active
+102,175,4,Life,Active
+103,7,2,Whole Life,Active
+104,435,7,Life,Active
+105,216,2,Whole Life,Lapsed
+106,422,2,Life,Active
+107,251,8,Universal Life,Lapsed
+108,55,3,Whole Life,Active
+109,222,5,Whole Life,Active
+110,492,1,Term Life,Active
+111,186,1,Whole Life,Active
+112,326,6,Life,Active
+113,457,1,Term Life,Active
+114,425,5,Whole Life,Active
+115,236,6,Whole Life,Active
+116,363,6,Universal Life,Active
+117,79,7,Term Life,Active
+118,223,3,Life,Active
+119,91,4,Whole Life,Active
+120,376,9,Universal Life,Active
+121,268,7,Whole Life,Lapsed
+122,495,10,Term Life,Active
+123,334,3,Life,Lapsed
+124,139,3,Universal Life,Active
+125,316,3,Whole Life,Active
+126,414,2,Life,Active
+127,471,10,Whole Life,Active
+128,276,7,Whole Life,Lapsed
+129,397,10,Term Life,Lapsed
+130,248,4,Term Life,Lapsed
+131,239,8,Whole Life,Active
+132,224,10,Universal Life,Active
+133,423,3,Term Life,Active
+134,375,4,Term Life,Active
+135,304,8,Term Life,Active
+136,138,5,Term Life,Active
+137,166,8,Life,Active
+138,437,5,Whole Life,Active
+139,126,1,Life,Active
+140,426,8,Life,Lapsed
+141,479,5,Whole Life,Active
+142,45,9,Term Life,Active
+143,143,3,Universal Life,Lapsed
+144,452,2,Term Life,Lapsed
+145,231,8,Term Life,Active
+146,125,6,Term Life,Active
+147,385,10,Term Life,Active
+148,238,5,Universal Life,Active
+149,292,7,Life,Active
+150,313,5,Universal Life,Active
+151,343,8,Whole Life,Active
+152,195,5,Term Life,Active
+153,173,4,Universal Life,Lapsed
+154,15,7,Whole Life,Lapsed
+155,254,8,Universal Life,Active
+156,436,2,Term Life,Lapsed
+157,167,4,Term Life,Active
+158,94,7,Whole Life,Active
+159,250,10,Universal Life,Active
+160,109,6,Term Life,Active
+161,182,10,Whole Life,Active
+162,409,5,Universal Life,Lapsed
+163,133,5,Universal Life,Active
+164,175,1,Whole Life,Active
+165,144,7,Universal Life,Active
+166,451,5,Universal Life,Active
+167,306,1,Term Life,Active
+168,360,10,Term Life,Active
+169,451,1,Term Life,Active
+170,142,10,Whole Life,Lapsed
+171,285,8,Life,Lapsed
+172,6,5,Universal Life,Active
+173,265,4,Whole Life,Active
+174,486,10,Life,Lapsed
+175,98,6,Life,Active
+176,44,4,Whole Life,Active
+177,124,4,Life,Active
+178,369,10,Term Life,Lapsed
+179,209,5,Whole Life,Active
+180,251,3,Universal Life,Active
+181,285,2,Term Life,Active
+182,389,1,Universal Life,Active
+183,124,5,Life,Lapsed
+184,354,8,Term Life,Active
+185,244,1,Universal Life,Lapsed
+186,331,10,Whole Life,Active
+187,365,6,Life,Active
+188,252,3,Universal Life,Active
+189,230,2,Life,Active
+190,406,5,Universal Life,Active
+191,9,6,Whole Life,Active
+192,48,7,Term Life,Active
+193,151,3,Universal Life,Active
+194,114,4,Life,Active
+195,208,3,Whole Life,Lapsed
+196,355,9,Term Life,Active
+197,125,6,Life,Active
+198,157,9,Whole Life,Lapsed
+199,340,9,Life,Active
+200,298,5,Whole Life,Active
+201,189,3,Term Life,Active
+202,243,5,Term Life,Active
+203,284,8,Life,Active
+204,272,5,Whole Life,Active
+205,177,6,Universal Life,Active
+206,218,2,Term Life,Lapsed
+207,382,8,Universal Life,Active
+208,282,2,Universal Life,Lapsed
+209,170,3,Life,Active
+210,181,4,Life,Lapsed
+211,360,7,Life,Lapsed
+212,233,9,Whole Life,Active
+213,139,6,Term Life,Active
+214,157,2,Term Life,Active
+215,129,7,Universal Life,Lapsed
+216,119,1,Life,Active
+217,62,5,Whole Life,Active
+218,370,9,Term Life,Active
+219,99,2,Whole Life,Active
+220,162,8,Life,Active
+221,62,6,Life,Active
+222,381,5,Term Life,Active
+223,275,10,Universal Life,Active
+224,487,7,Universal Life,Lapsed
+225,391,6,Life,Active
+226,354,2,Life,Active
+227,95,4,Universal Life,Lapsed
+228,99,8,Life,Active
+229,111,1,Term Life,Lapsed
+230,379,10,Term Life,Active
+231,248,9,Whole Life,Lapsed
+232,142,6,Universal Life,Active
+233,371,10,Life,Lapsed
+234,302,4,Whole Life,Lapsed
+235,390,2,Term Life,Active
+236,269,8,Universal Life,Lapsed
+237,306,5,Term Life,Active
+238,145,7,Life,Active
+239,52,2,Whole Life,Lapsed
+240,427,3,Life,Active
+241,100,1,Life,Active
+242,152,1,Universal Life,Active
+243,117,5,Universal Life,Active
+244,185,8,Life,Active
+245,92,2,Universal Life,Lapsed
+246,155,2,Whole Life,Active
+247,8,4,Whole Life,Active
+248,363,9,Life,Active
+249,274,3,Whole Life,Active
+250,65,7,Life,Lapsed
+251,141,8,Whole Life,Active
+252,24,6,Term Life,Active
+253,499,9,Life,Lapsed
+254,28,7,Whole Life,Active
+255,284,10,Term Life,Active
+256,150,3,Life,Lapsed
+257,358,7,Whole Life,Active
+258,484,2,Whole Life,Lapsed
+259,65,8,Term Life,Lapsed
+260,327,10,Universal Life,Lapsed
+261,445,7,Universal Life,Lapsed
+262,386,5,Term Life,Active
+263,252,1,Term Life,Active
+264,53,6,Life,Active
+265,447,4,Universal Life,Active
+266,7,8,Life,Active
+267,294,8,Whole Life,Lapsed
+268,146,4,Term Life,Active
+269,241,6,Life,Active
+270,246,2,Term Life,Active
+271,226,6,Life,Active
+272,175,9,Whole Life,Active
+273,95,6,Whole Life,Lapsed
+274,495,1,Universal Life,Lapsed
+275,27,7,Universal Life,Lapsed
+276,130,5,Whole Life,Active
+277,482,4,Life,Active
+278,442,2,Term Life,Lapsed
+279,245,8,Whole Life,Active
+280,59,2,Whole Life,Active
+281,421,4,Life,Active
+282,34,10,Whole Life,Active
+283,206,1,Whole Life,Active
+284,252,1,Life,Active
+285,38,6,Whole Life,Lapsed
+286,296,4,Universal Life,Active
+287,323,3,Universal Life,Active
+288,352,10,Universal Life,Active
+289,28,4,Universal Life,Active
+290,78,2,Whole Life,Active
+291,77,9,Term Life,Active
+292,416,4,Universal Life,Lapsed
+293,289,10,Universal Life,Active
+294,486,4,Whole Life,Active
+295,156,4,Whole Life,Active
+296,44,6,Life,Lapsed
+297,128,3,Universal Life,Lapsed
+298,61,10,Life,Active
+299,286,1,Universal Life,Active
+300,392,5,Term Life,Active
+301,214,3,Whole Life,Active
+302,311,3,Whole Life,Active
+303,306,9,Life,Active
+304,405,5,Life,Active
+305,317,3,Whole Life,Active
+306,116,2,Whole Life,Active
+307,398,1,Whole Life,Active
+308,268,3,Universal Life,Active
+309,195,1,Universal Life,Active
+310,231,6,Term Life,Lapsed
+311,466,4,Universal Life,Active
+312,227,10,Whole Life,Active
+313,153,6,Universal Life,Active
+314,441,1,Life,Active
+315,302,3,Whole Life,Lapsed
+316,220,5,Universal Life,Lapsed
+317,157,1,Whole Life,Active
+318,292,3,Life,Active
+319,318,7,Life,Lapsed
+320,31,9,Universal Life,Active
+321,313,2,Whole Life,Lapsed
+322,492,2,Term Life,Lapsed
+323,379,8,Life,Active
+324,51,8,Term Life,Active
+325,486,6,Universal Life,Lapsed
+326,391,9,Life,Active
+327,107,10,Term Life,Lapsed
+328,321,2,Life,Active
+329,109,8,Term Life,Active
+330,136,9,Whole Life,Active
+331,339,4,Whole Life,Active
+332,42,10,Universal Life,Lapsed
+333,81,1,Life,Active
+334,123,9,Term Life,Lapsed
+335,89,5,Universal Life,Lapsed
+336,283,8,Whole Life,Active
+337,39,1,Whole Life,Lapsed
+338,81,1,Universal Life,Active
+339,2,8,Life,Active
+340,210,7,Term Life,Active
+341,231,7,Whole Life,Active
+342,353,2,Universal Life,Active
+343,305,8,Whole Life,Lapsed
+344,241,8,Whole Life,Active
+345,150,2,Term Life,Active
+346,17,2,Life,Active
+347,119,6,Life,Active
+348,148,10,Term Life,Active
+349,362,3,Universal Life,Lapsed
+350,145,2,Universal Life,Active
+351,360,3,Life,Active
+352,441,5,Whole Life,Active
+353,233,10,Whole Life,Active
+354,37,10,Universal Life,Lapsed
+355,352,9,Term Life,Active
+356,120,6,Whole Life,Active
+357,474,7,Universal Life,Active
+358,136,10,Term Life,Active
+359,404,9,Life,Active
+360,406,5,Term Life,Active
+361,321,8,Life,Active
+362,302,9,Universal Life,Lapsed
+363,339,10,Term Life,Active
+364,412,7,Universal Life,Active
+365,479,2,Life,Lapsed
+366,102,2,Whole Life,Active
+367,218,9,Whole Life,Active
+368,59,4,Life,Active
+369,279,7,Whole Life,Lapsed
+370,116,8,Whole Life,Lapsed
+371,332,4,Term Life,Active
+372,77,7,Term Life,Active
+373,466,6,Whole Life,Active
+374,137,8,Term Life,Active
+375,424,7,Life,Lapsed
+376,73,7,Term Life,Lapsed
+377,37,2,Term Life,Active
+378,31,6,Term Life,Lapsed
+379,85,7,Universal Life,Active
+380,406,6,Life,Active
+381,158,5,Whole Life,Active
+382,305,6,Whole Life,Active
+383,384,3,Universal Life,Lapsed
+384,423,8,Term Life,Active
+385,292,2,Life,Active
+386,472,2,Life,Active
+387,148,2,Whole Life,Active
+388,225,2,Universal Life,Active
+389,64,7,Universal Life,Lapsed
+390,240,2,Universal Life,Active
+391,353,6,Universal Life,Active
+392,156,3,Life,Active
+393,359,9,Term Life,Active
+394,207,1,Whole Life,Active
+395,483,10,Life,Lapsed
+396,140,9,Universal Life,Active
+397,257,9,Universal Life,Lapsed
+398,277,6,Whole Life,Active
+399,253,2,Term Life,Active
+400,225,7,Term Life,Lapsed
+401,42,6,Term Life,Lapsed
+402,307,7,Universal Life,Lapsed
+403,21,1,Life,Active
+404,456,5,Life,Active
+405,222,10,Term Life,Active
+406,377,5,Whole Life,Active
+407,166,6,Term Life,Lapsed
+408,310,2,Term Life,Active
+409,129,10,Whole Life,Active
+410,14,9,Term Life,Active
+411,47,4,Whole Life,Active
+412,118,3,Whole Life,Active
+413,493,8,Life,Active
+414,346,4,Whole Life,Lapsed
+415,429,2,Term Life,Active
+416,441,6,Whole Life,Active
+417,295,9,Term Life,Active
+418,301,6,Whole Life,Active
+419,487,2,Life,Active
+420,11,5,Term Life,Active
+421,392,10,Term Life,Lapsed
+422,345,4,Term Life,Active
+423,421,7,Whole Life,Active
+424,138,9,Life,Lapsed
+425,296,10,Life,Lapsed
+426,21,10,Life,Active
+427,391,9,Life,Active
+428,388,1,Whole Life,Lapsed
+429,90,10,Term Life,Active
+430,241,5,Universal Life,Active
+431,266,1,Life,Active
+432,334,3,Universal Life,Active
+433,227,5,Whole Life,Active
+434,470,5,Whole Life,Lapsed
+435,143,6,Universal Life,Active
+436,93,6,Term Life,Active
+437,300,1,Universal Life,Active
+438,224,3,Whole Life,Active
+439,326,3,Universal Life,Active
+440,417,10,Life,Active
+441,252,7,Life,Active
+442,497,2,Term Life,Active
+443,47,3,Universal Life,Active
+444,241,1,Universal Life,Lapsed
+445,179,2,Universal Life,Active
+446,210,9,Universal Life,Active
+447,171,4,Term Life,Lapsed
+448,165,7,Whole Life,Lapsed
+449,344,7,Term Life,Active
+450,54,8,Whole Life,Active
+451,440,6,Whole Life,Active
+452,83,3,Whole Life,Active
+453,169,6,Universal Life,Active
+454,211,5,Term Life,Active
+455,356,6,Whole Life,Lapsed
+456,254,10,Life,Lapsed
+457,148,10,Whole Life,Lapsed
+458,340,2,Term Life,Lapsed
+459,484,1,Universal Life,Active
+460,206,3,Life,Active
+461,417,3,Whole Life,Active
+462,390,10,Universal Life,Active
+463,282,1,Term Life,Lapsed
+464,19,2,Term Life,Lapsed
+465,233,5,Life,Active
+466,46,8,Life,Active
+467,162,7,Whole Life,Active
+468,130,8,Universal Life,Active
+469,166,10,Universal Life,Active
+470,60,8,Term Life,Lapsed
+471,497,7,Term Life,Active
+472,396,5,Whole Life,Active
+473,207,4,Whole Life,Active
+474,443,9,Term Life,Active
+475,264,2,Term Life,Active
+476,423,6,Universal Life,Active
+477,1,7,Universal Life,Active
+478,337,2,Universal Life,Active
+479,446,5,Whole Life,Active
+480,278,10,Universal Life,Active
+481,237,8,Life,Lapsed
+482,212,9,Life,Active
+483,28,5,Universal Life,Active
+484,97,1,Universal Life,Active
+485,266,4,Term Life,Active
+486,186,7,Term Life,Lapsed
+487,319,10,Whole Life,Active
+488,388,1,Life,Lapsed
+489,256,1,Life,Active
+490,321,4,Whole Life,Active
+491,227,5,Universal Life,Active
+492,390,4,Universal Life,Active
+493,27,3,Whole Life,Active
+494,105,5,Life,Lapsed
+495,137,5,Life,Active
+496,282,6,Universal Life,Active
+497,68,2,Term Life,Active
+498,475,1,Whole Life,Lapsed
+499,148,8,Whole Life,Active
+500,225,7,Universal Life,Active
